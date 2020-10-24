@@ -16,11 +16,11 @@ To track all files in a folder, use the aesterisk symbol also called the "wildca
 Once a file is added to be tracked by Git, they're ready to be committed or saved.   
 `git commit -m <message>`
 
+## Git Branches
+
 #### Check the Current Branch
 To check and confirm the current branch you're on, before tracking and subsequently committing changes.   
 `git branch`
-
-## Git Branches
 
 #### Create a New Branch
 A new branch can be created in your local git and later "pushed" to your remote GitHub account for others to access and see.   
