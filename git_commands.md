@@ -20,10 +20,6 @@ Once a file is added to be tracked by Git, they're ready to be committed or save
 This command will clone a remote Github repository so that it is available on your local system to track independently.   
 `git clone <url>`
 
-#### Clone a Remote Branch
-How to clone a remote branch on a Github repository.
-`git checkout -b <newlocalbranch> <remotebranchtoclone>`
-
 ## Git Branches
 
 #### Check the Current Branch
@@ -45,6 +41,10 @@ Allows you to move out of the current branch and into another branch.
 #### Delete a Branch
 Git Branches can be deleted using the following command.   
 `git branch -d <branchname>`
+
+#### Clone a Remote Branch
+How to clone a remote branch on a Github repository.   
+`git checkout -b <newlocalbranch> <remotebranchtoclone>`
 
 ## Miscellaneous Commands
 
