@@ -46,6 +46,16 @@ Git Branches can be deleted using the following command.
 How to clone a remote branch on a Github repository.   
 `git checkout -b <newlocalbranch> <remotebranchtoclone>`
 
+## Pushing Commands
+
+#### Pushing Commits to a Remote Repository
+How to push local commits to a remote repository.   
+`git push <remotename> <branchname>`
+
+#### Renaming Remote Branch
+You can rename a local branch that is pushed to a remote repository.   
+`git push <remotename> <localbranchname>:<remotebranchname>`
+
 ## Miscellaneous Commands
 
 #### Retrieve Remote GitHub Repo
