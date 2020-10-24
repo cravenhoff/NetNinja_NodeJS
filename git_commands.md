@@ -16,11 +16,23 @@ To track all files in a folder, use the aesterisk symbol also called the "wildca
 Once a file is added to be tracked by Git, they're ready to be committed or saved.   
 `git commit -m <message>`
 
+#### Clone a Remote Repository
+This command will clone a remote Github repository so that it is available on your local system to track independently.   
+`git clone <url>`
+
+#### Clone a Remote Branch
+How to clone a remote branch on a Github repository.
+`git checkout -b <newlocalbranch> <remotebranchtoclone>`
+
 ## Git Branches
 
 #### Check the Current Branch
 To check and confirm the current branch you're on, before tracking and subsequently committing changes.   
 `git branch`
+
+#### Listing All Branches: Local and Remote
+To list and check all available branches, both local and remote.   
+`git branch -a`
 
 #### Create a New Branch
 A new branch can be created in your local git and later "pushed" to your remote GitHub account for others to access and see.   
