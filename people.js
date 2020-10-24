@@ -5,6 +5,6 @@ const ages = [25, 34, 30, 52, 29];
 // module.exports = "hello";
 // module.exports = people;
 module.exports = {
-    people: people,
+    persons: people,
     ages: ages
 };
