@@ -33,3 +33,9 @@ Allows you to move out of the current branch and into another branch.
 #### Delete a Branch
 Git Branches can be deleted using the following command.   
 `git branch -d <branchname>`
+
+## Miscellaneous Commands
+
+#### Retrieve Remote GitHub Repo
+Use this command to confirm which remote Github Repo your local git repo is connected to.   
+`git config --get remote.origin.url`
