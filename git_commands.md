@@ -31,5 +31,5 @@ Allows you to move out of the current branch and into another branch.
 `git checkout <branchname>`
 
 #### Delete a Branch
-Git Branches can be deleted using the following command.
+Git Branches can be deleted using the following command.   
 `git branch -d <branchname>`
