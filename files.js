@@ -14,6 +14,22 @@ fs.readFile("./docs/blog1.txt", (err, data) => {
 console.log("last line...");
 
 // Writing files
+fs.writeFile("./docs/blog1.txt", "hello, world", (err, data) => {
+    if(err) {
+        console.log(err);
+    }
+
+    console.log("file was written...");
+})
+
+// Created a file that did not exist
+fs.writeFile("./docs/blog2.txt", "hello, ninjas", (err, data) => {
+    if(err) {
+        console.log(err);
+    }
+
+    console.log("file was written...");
+})
 
 
 // Create and Delete Directories
