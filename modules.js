@@ -15,3 +15,11 @@
 // The above two properties can be easily combined to be retrieved together in one call
 const {persons, ages} = require("./people.js"); // Importing both "persons" and "ages" properties
 console.log(persons, ages);
+
+// Accessing the default modules accessibly with Node
+// OS Module
+const os = require("os");
+console.log(os);
+console.log(os.platform());
+console.log(os.userInfo());
+console.log(os.homedir());
