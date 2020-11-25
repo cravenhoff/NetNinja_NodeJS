@@ -52,7 +52,7 @@ How to clone a remote branch on a Github repository.
 
 #### Pushing Commits to a Remote Repository
 How to push local commits to a remote repository.   
-`git push <remotename> <branchname>`
+`git push <remotename> <branchname>` or `git push origin <localbranchname>:<remotebranchname>`
 
 #### Renaming Remote Branch
 You can rename a local branch that is pushed to a remote repository.   
