@@ -63,3 +63,10 @@ You can rename a local branch that is pushed to a remote repository.
 #### Retrieve Remote GitHub Repo
 Use this command to confirm which remote Github Repo your local git repo is connected to.   
 `git config --get remote.origin.url`
+
+## Git Terminal Editor
+Use the following commands to work with the default terminal editor Git uses.
+* To insert messages: type `i`
+* Type in merge message
+* Enter `esc` to exit insert interface
+* To exit editor: type in `:wq` and hit enter.
