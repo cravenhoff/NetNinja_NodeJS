@@ -70,3 +70,5 @@ Use the following commands to work with the default terminal editor Git uses.
 * Type in merge message
 * Enter `esc` to exit insert interface
 * To exit editor: type in `:wq` and hit enter.
+
+In cases where, for example: you're scrolling through a long list of commit logs, the terminal editor will be activated as you tab/enter through the commits. In order to "exit" the editor, you'll have to use the `q` command.
